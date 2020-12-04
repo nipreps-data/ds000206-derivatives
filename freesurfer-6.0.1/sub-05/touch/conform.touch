@@ -1,0 +1,1 @@
+mri_convert /out/freesurfer/sub-THP0005/mri/rawavg.mgz /out/freesurfer/sub-THP0005/mri/orig.mgz --conform

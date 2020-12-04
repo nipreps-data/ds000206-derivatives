@@ -1,0 +1,97 @@
+$Id: mri_segreg.c,v 1.113 2016/05/10 03:23:20 greve Exp $
+setenv SUBJECTS_DIR /out/freesurfer
+cd /out/freesurfer/sub-THP0005/scripts
+mri_segreg --mov /out/freesurfer/sub-THP0005/mri/transforms/tmp.bbregister.97313/template.nii --init-reg /out/freesurfer/sub-THP0005/mri/transforms/tmp.bbregister.97313/bbr.pass1.dat --out-reg /out/freesurfer/sub-THP0005/mri/transforms/T2raw.auto.dat --interp trilinear --wm-proj-abs 2 --tol 1e-8 --tol1d 1e-3 --c0 0 --mincost /out/freesurfer/sub-THP0005/mri/transforms/T2raw.auto.dat.mincost --dof 6 --nmax 36 --param /out/freesurfer/sub-THP0005/mri/transforms/T2raw.auto.dat.param --surf white --brute -0.1 0.1 0.1 --cur-reg /out/freesurfer/sub-THP0005/mri/transforms/tmp.bbregister.97313/reg.curopt.dat --gm-proj-frac 0.5 --nsub 1 --gm-gt-wm 0.5 
+sysname  Linux
+hostname 084d7ded04c6
+machine  x86_64
+user     root
+movvol /out/freesurfer/sub-THP0005/mri/transforms/tmp.bbregister.97313/template.nii
+regfile /out/freesurfer/sub-THP0005/mri/transforms/tmp.bbregister.97313/bbr.pass1.dat
+subject sub-THP0005
+dof 6
+outregfile /out/freesurfer/sub-THP0005/mri/transforms/T2raw.auto.dat
+UseMask 0
+UseLH 1
+UseRH 1
+nsubsamp 1
+PenaltySign  -1
+PenaltySlope 0.500000
+PenaltyCenter 0.000000
+surfname white
+GMProjFrac 0.500000
+WMProjAbs 2.000000
+lhcostfile (null)
+rhcostfile (null)
+interp  trilinear (1)
+frame  0
+TolPowell 0.000000
+nMaxItersPowell 36
+n1dmin  3
+Profile   0
+Gdiag_no  -1
+AddNoise  0 (0)
+SynthSeed 1568997505
+TransRandMax 0.000000
+RotRandMax 0.000000
+Translations 0.000000 0.000000 0.000000
+Rotations   0.000000 0.000000 0.000000
+Input reg
+-0.99909  -0.00687   0.04203  -1.90244;
+ 0.04047   0.15372   0.98729  -1.39360;
+ 0.01324  -0.98809   0.15330  -4.17427;
+ 0.00000   0.00000   0.00000   1.00000;
+
+Initial costs ----------------
+Number of surface hits 247004
+WM  Intensity0 2407105.9148 +/- 528242.8399
+Ctx Intensity0 2847833.1697 +/- 587815.2606
+Pct Contrast0     16.6810 +/-  25.6968
+Cost   0.4757
+RelCost   0.4669
+
+Brute force preopt -0.1 0.1 0.1, n = 729
+     0  -0.1000  -0.1000  -0.1000  -0.1000  -0.1000  -0.1000      0.4666   0.4666  0.0
+     3  -0.1000  -0.1000  -0.1000  -0.1000   0.0000  -0.1000      0.4639   0.4639  0.0
+     4  -0.1000  -0.1000  -0.1000  -0.1000   0.0000   0.0000      0.4635   0.4635  0.0
+     6  -0.1000  -0.1000  -0.1000  -0.1000   0.1000  -0.1000      0.4623   0.4623  0.0
+    30  -0.1000  -0.1000   0.0000  -0.1000   0.0000  -0.1000      0.4609   0.4609  0.0
+    33  -0.1000  -0.1000   0.0000  -0.1000   0.1000  -0.1000      0.4593   0.4593  0.0
+    61  -0.1000  -0.1000   0.1000  -0.1000   0.1000   0.0000      0.4590   0.4590  0.0
+   114  -0.1000   0.0000   0.0000  -0.1000   0.1000  -0.1000      0.4582   0.4582  0.0
+
+Final costs ----------------
+Number of surface hits 247004
+WM  Intensity0 2400836.9410 +/- 517804.1953
+Ctx Intensity0 2850969.2116 +/- 568697.1008
+Pct Contrast0     17.0998 +/-  24.8948
+Cost   0.4409
+RelCost   0.4669
+Number of iterations     5
+Min cost was 0.440922
+RelMinCost   0.4332
+Number of FunctionCalls   454
+OptimizationTime 35.605000 sec
+Parameters at optimum (transmm, rotdeg)
+-0.45505 -0.52062  0.66374  0.39072  0.16074  0.18025 
+Number of surface hits 247004
+WM  Intensity 2400836.9410 +/- 517804.1953
+Ctx Intensity 2850969.2116 +/- 568697.1008
+Pct Contrast     17.0998 +/-  24.8948
+Cost at optimum   0.4409
+RelCostOptimum   0.4332
+nhits= 247004 wmmn=2400836.9410 wmstd=517804.1953 constd=   24.8948 ctxmn=2850969.2116 ctxstd=568697.1008 conmn =  17.0998 costmn =   0.4409 
+#C#  -0.455  -0.521   0.664  0.391  0.161  0.180 0.000000 0.000000 0.440922 2400836.940967 2850969.211550 17.099782 0.000000 0.500000     1 0
+Reg at min cost was 
+-0.99917  -0.01014   0.03937  -2.36491;
+ 0.03724   0.16043   0.98635  -1.89173;
+ 0.01632  -0.98700   0.15992  -3.51458;
+ 0.00000   0.00000   0.00000   1.00000;
+
+Original Reg - Optimal Reg
+ 0.00008   0.00327   0.00265   0.46247;
+ 0.00323  -0.00670   0.00094   0.49813;
+-0.00308  -0.00109  -0.00661  -0.65968;
+ 0.00000   0.00000   0.00000   0.00000;
+
+Surface-RMS-Diff-mm 1.046665 0.202344 1.455466

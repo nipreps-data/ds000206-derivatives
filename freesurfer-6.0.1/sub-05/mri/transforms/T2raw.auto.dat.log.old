@@ -1,0 +1,6 @@
+Logfile for bbregister
+Sat Sep 14 02:24:39 UTC 2019
+
+setenv SUBJECTS_DIR /out/freesurfer
+cd /out/freesurfer/sub-THP0005/scripts
+/opt/freesurfer/bin/bbregister --s sub-THP0005 --mov /out/freesurfer/sub-THP0005/mri/orig/T2raw.mgz --lta /out/freesurfer/sub-THP0005/mri/transforms/T2raw.auto.lta --init-coreg --T2

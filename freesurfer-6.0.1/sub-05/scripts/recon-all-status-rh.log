@@ -1,0 +1,21 @@
+status file for recon-all
+Sat Sep 14 01:19:37 UTC 2019
+#@# Tessellate rh Sat Sep 14 01:19:37 UTC 2019
+#@# Smooth1 rh Sat Sep 14 01:19:41 UTC 2019
+#@# Inflation1 rh Sat Sep 14 01:19:47 UTC 2019
+#@# QSphere rh Sat Sep 14 01:19:59 UTC 2019
+#@# Fix Topology Copy rh Sat Sep 14 01:21:17 UTC 2019
+#@# Fix Topology rh Sat Sep 14 01:21:18 UTC 2019
+#@# Make White Surf rh Sat Sep 14 01:32:43 UTC 2019
+#@# Smooth2 rh Sat Sep 14 01:36:00 UTC 2019
+#@# Inflation2 rh Sat Sep 14 01:36:05 UTC 2019
+#@# Curv .H and .K rh Sat Sep 14 01:36:21 UTC 2019
+#@# Curvature Stats rh Sat Sep 14 01:37:14 UTC 2019
+#@# Sphere rh Sat Sep 14 01:37:18 UTC 2019
+#@# Surf Reg rh Sat Sep 14 01:46:38 UTC 2019
+#@# Jacobian white rh Sat Sep 14 02:09:43 UTC 2019
+#@# AvgCurv rh Sat Sep 14 02:09:44 UTC 2019
+#@# Cortical Parc rh Sat Sep 14 02:09:46 UTC 2019
+#@# Make Pial Surf rh Sat Sep 14 02:09:57 UTC 2019
+#@# Surf Volume rh Sat Sep 14 02:20:11 UTC 2019
+recon-all -s sub-THP0005 finished without error at Sat Sep 14 02:20:15 UTC 2019

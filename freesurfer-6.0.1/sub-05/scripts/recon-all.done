@@ -1,0 +1,13 @@
+------------------------------
+SUBJECT sub-THP0005
+START_TIME Sat Sep 14 02:24:31 UTC 2019
+END_TIME Sat Sep 14 03:37:29 UTC 2019
+RUNTIME_HOURS 1.216
+USER root
+HOST 084d7ded04c6
+PROCESSOR x86_64
+OS Linux
+UNAME Linux 084d7ded04c6 4.4.0-148-generic #174~14.04.1-Ubuntu SMP Thu May 9 08:17:37 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+VERSION $Id: recon-all,v 1.580.2.16 2017/01/18 14:11:24 zkaufman Exp $
+CMDPATH /opt/freesurfer/bin/recon-all
+CMDARGS -autorecon3 -hemi lh -openmp 8 -subjid sub-THP0005 -sd /out/freesurfer -T2pial -nosphere -nosurfreg -nojacobian_white -noavgcurv -nocortparc -nopial

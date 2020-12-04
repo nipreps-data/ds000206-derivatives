@@ -1,0 +1,9 @@
+Logfile for pctsurfcon
+Sat Sep 14 03:16:08 UTC 2019
+setenv SUBJECTS_DIR /out/freesurfer
+cd /out/freesurfer/sub-THP0005/scripts
+/opt/freesurfer/bin/pctsurfcon
+$Id: pctsurfcon,v 1.15 2016/02/12 21:43:15 zkaufman Exp $
+Linux 084d7ded04c6 4.4.0-148-generic #174~14.04.1-Ubuntu SMP Thu May 9 08:17:37 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+FREESURFER_HOME /opt/freesurfer
+Cleaning up

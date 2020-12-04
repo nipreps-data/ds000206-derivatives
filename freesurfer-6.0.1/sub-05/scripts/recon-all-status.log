@@ -1,0 +1,84 @@
+status file for recon-all
+Fri Sep 13 22:36:12 UTC 2019
+#@# T2/FLAIR Input Fri Sep 13 22:36:18 UTC 2019
+#@# MotionCor Fri Sep 13 22:36:20 UTC 2019
+#@# Talairach Fri Sep 13 22:36:31 UTC 2019
+#@# Talairach Failure Detection Fri Sep 13 22:37:57 UTC 2019
+#@# Nu Intensity Correction Fri Sep 13 22:37:58 UTC 2019
+#@# Intensity Normalization Fri Sep 13 22:39:41 UTC 2019
+recon-all -s sub-THP0005 finished without error at Fri Sep 13 22:41:15 UTC 2019
+
+
+
+New invocation of recon-all 
+
+
+
+status file for recon-all
+Fri Sep 13 23:01:39 UTC 2019
+#@# EM Registration Fri Sep 13 23:01:40 UTC 2019
+#@# CA Normalize Fri Sep 13 23:05:41 UTC 2019
+#@# CA Reg Fri Sep 13 23:06:55 UTC 2019
+#@# SubCort Seg Sat Sep 14 00:37:59 UTC 2019
+#@# Merge ASeg Sat Sep 14 01:15:07 UTC 2019
+#@# Intensity Normalization2 Sat Sep 14 01:15:07 UTC 2019
+#@# Mask BFS Sat Sep 14 01:17:20 UTC 2019
+#@# WM Segmentation Sat Sep 14 01:17:23 UTC 2019
+#@# Fill Sat Sep 14 01:18:55 UTC 2019
+recon-all -s sub-THP0005 finished without error at Sat Sep 14 01:19:26 UTC 2019
+
+
+
+New invocation of recon-all 
+
+
+
+status file for recon-all
+
+
+
+New invocation of recon-all 
+
+
+
+status file for recon-all
+Sat Sep 14 02:24:39 UTC 2019
+Sat Sep 14 02:24:39 UTC 2019
+#@# Refine Pial Surfs w/ T2/FLAIR Sat Sep 14 02:24:39 UTC 2019
+#@# Refine Pial Surfs w/ T2/FLAIR Sat Sep 14 02:24:39 UTC 2019
+#@# Surf Volume rh Sat Sep 14 03:05:23 UTC 2019
+#@# Surf Volume rh Sat Sep 14 03:05:27 UTC 2019
+#@# Cortical ribbon mask Sat Sep 14 03:05:31 UTC 2019
+#@# Surf Volume lh Sat Sep 14 03:08:38 UTC 2019
+#@# Surf Volume lh Sat Sep 14 03:08:41 UTC 2019
+#@# Cortical ribbon mask Sat Sep 14 03:08:45 UTC 2019
+#@# Parcellation Stats rh Sat Sep 14 03:11:02 UTC 2019
+#@# Cortical Parc 2 rh Sat Sep 14 03:11:52 UTC 2019
+#@# Parcellation Stats 2 rh Sat Sep 14 03:12:06 UTC 2019
+#@# Cortical Parc 3 rh Sat Sep 14 03:12:33 UTC 2019
+#@# Parcellation Stats 3 rh Sat Sep 14 03:12:45 UTC 2019
+#@# WM/GM Contrast rh Sat Sep 14 03:13:12 UTC 2019
+#@# Relabel Hypointensities Sat Sep 14 03:13:19 UTC 2019
+#@# AParc-to-ASeg aparc Sat Sep 14 03:13:35 UTC 2019
+#@# Parcellation Stats lh Sat Sep 14 03:14:05 UTC 2019
+#@# Cortical Parc 2 lh Sat Sep 14 03:14:54 UTC 2019
+#@# Parcellation Stats 2 lh Sat Sep 14 03:15:07 UTC 2019
+#@# Cortical Parc 3 lh Sat Sep 14 03:15:33 UTC 2019
+#@# Parcellation Stats 3 lh Sat Sep 14 03:15:44 UTC 2019
+#@# WM/GM Contrast lh Sat Sep 14 03:16:08 UTC 2019
+#@# Relabel Hypointensities Sat Sep 14 03:16:14 UTC 2019
+#@# AParc-to-ASeg aparc Sat Sep 14 03:16:30 UTC 2019
+#@# AParc-to-ASeg a2009s Sat Sep 14 03:16:53 UTC 2019
+#@# AParc-to-ASeg a2009s Sat Sep 14 03:19:52 UTC 2019
+#@# AParc-to-ASeg DKTatlas Sat Sep 14 03:20:17 UTC 2019
+#@# AParc-to-ASeg DKTatlas Sat Sep 14 03:23:15 UTC 2019
+#@# APas-to-ASeg Sat Sep 14 03:23:36 UTC 2019
+#@# ASeg Stats Sat Sep 14 03:23:42 UTC 2019
+#@# WMParc Sat Sep 14 03:24:13 UTC 2019
+#@# APas-to-ASeg Sat Sep 14 03:26:41 UTC 2019
+#@# ASeg Stats Sat Sep 14 03:26:47 UTC 2019
+#@# WMParc Sat Sep 14 03:27:20 UTC 2019
+#@# BA_exvivo Labels rh Sat Sep 14 03:29:30 UTC 2019
+#@# BA_exvivo Labels lh Sat Sep 14 03:33:03 UTC 2019
+recon-all -s sub-THP0005 finished without error at Sat Sep 14 03:33:39 UTC 2019
+recon-all -s sub-THP0005 finished without error at Sat Sep 14 03:37:29 UTC 2019
